@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1d2671, #c33764);
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    border-bottom: 5px solid #c33764;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #1d2671;
+}
+
+.header p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #1d2671;
+    border-left: 5px solid #c33764;
+    padding-left: 10px;
+}
+
+.profile p {
+    line-height: 1.6;
+}
+
+.personal-info ul,
+.projects ul,
+.strengths ul,
+.hobbies ul {
+    list-style: none;
+}
+
+.personal-info li,
+.projects li,
+.strengths li,
+.hobbies li {
+    padding: 6px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #1d2671;
+    color: white;
+}
+
+.skill-box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box span {
+    background: #c33764;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.declaration p {
+    margin-top: 10px;
+}
+
+.signature {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
